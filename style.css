@@ -81,7 +81,7 @@ body{
 
 #header .profile .sns_link li a{
     display: block;
-    margin: 20px 10px;
+    margin: 20px 7px;
     border-radius: 50%;
     text-align: center;
     width: 36px;
@@ -114,7 +114,8 @@ body{
 #header .nav_menu li a{
     display: block;
     font-size: 18px;
-    color: #999;
+    color: #fff;
+    opacity: 0.5;
     width: 280px;
     height: 48px;
     line-height: 2.5;
@@ -126,6 +127,7 @@ body{
 
 #header .nav_menu li a.active{
     color: #fff;
+    opacity: 1;
 }
 
 #header .nav_menu span{
@@ -755,7 +757,7 @@ html[data-current-page-index="0"] .nav_menu{
 #section5 .contact_info .contact_sns{
     position: relative;
     bottom: 800px;
-    left: 580px;
+    left: 540px;
 }
 
 .top{
